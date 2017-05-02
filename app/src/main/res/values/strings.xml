@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Professional Buddies</string>
+    <string name="googleLogin">Login with Google+</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="loginButton">Login</string>
+    <string name="recoverAccount">Forgot Username/Password?</string>
+    <string name="newUser">New User? Sign up!</string>
+</resources>

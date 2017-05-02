@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.danie.professionalbuddies.MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="174dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="googleLogin"
+        android:text="@string/googleLogin"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        tools:layout_editor_absoluteX="105dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="83dp"
+        android:layout_height="37dp"
+        android:onClick="login"
+        android:text="@string/loginButton"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="155dp"
+        android:layout_height="31dp"
+        android:onClick="accountRecovery"
+        android:text="@string/recoverAccount"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="177dp"
+        android:layout_height="52dp"
+        android:onClick="newUser"
+        android:text="@string/newUser"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="443dp" />
+</android.support.constraint.ConstraintLayout>
