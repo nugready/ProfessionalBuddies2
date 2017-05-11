@@ -6,4 +6,9 @@
     <string name="loginButton">Login</string>
     <string name="recoverAccount">Forgot Username/Password?</string>
     <string name="newUser">New User? Sign up!</string>
+    <string-array name="spinner_item">
+        <item>What is your Mother's maiden name?</item>
+        <item>What was the name your of Elementary School?</item>
+        <item>Who was your childhood best friend?</item>
+    </string-array>
 </resources>

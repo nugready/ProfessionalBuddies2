@@ -6,4 +6,52 @@
     android:layout_height="match_parent"
     tools:context="com.example.danie.professionalbuddies.RegistrationActivity">
 
-</android.support.constraint.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Username"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text= "enter email"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:entries="@array/spinner_item"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Security Questions"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+
+
+
