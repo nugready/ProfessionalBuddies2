@@ -6,4 +6,13 @@
     android:layout_height="match_parent"
     tools:context="com.example.danie.professionalbuddies.accountRecoveryActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="290dp"
+        android:layout_height="59dp"
+        android:text="@string/Accountrecovery"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="16dp" />
 </android.support.constraint.ConstraintLayout>
