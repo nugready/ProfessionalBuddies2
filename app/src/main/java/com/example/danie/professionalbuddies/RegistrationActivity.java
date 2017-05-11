@@ -13,6 +13,6 @@ public class RegistrationActivity extends AppCompatActivity {
         setContentView(R.layout.activity_registration);
         spinnerQ = (Spinner) findViewById(R.id.spinner);
 
-        spinnerQ.setOnItemSelectedListener();
+        spinnerQ.setOnItemSelectedListener(new);
     }
 }
