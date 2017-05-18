@@ -6,14 +6,15 @@
     <string name="loginButton">Login</string>
     <string name="recoverAccount">Forgot Username/Password?</string>
     <string name="newUser">New User? Sign up!</string>
-<<<<<<< Updated upstream
-    <string-array name="spinner_item">
-        <item>What is your Mother's maiden name?</item>
-        <item>What was the name your of Elementary School?</item>
-        <item>Who was your childhood best friend?</item>
-    </string-array>
-=======
     <string name="Accountrecovery">Account Recovery</string>
->>>>>>> Stashed changes
-    <string name="Email">Enter Email</string>
+    <string name="securityQuestions">Security Questions</string>
+    <string name="email">Email</string>
+    <string name="motherMaiden">What is your mother\'s maiden name?</string>
+    <string name="elementarySchool">What was the name of your elementary school?</string>
+    <string name="childhoodFriend">Who was your childhood best friend?</string>
+    <string-array name="questionsArray">
+        <item>@string/motherMaiden</item>
+        <item>@string/elementarySchool</item>
+        <item>@string/childhoodFriend</item>
+    </string-array>
 </resources>

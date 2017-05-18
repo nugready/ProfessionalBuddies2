@@ -15,21 +15,4 @@
         android:textStyle="bold"
         tools:layout_editor_absoluteX="71dp"
         tools:layout_editor_absoluteY="16dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="174dp" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="230dp"
-        android:layout_height="38dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="134dp" />
-
 </android.support.constraint.ConstraintLayout>
