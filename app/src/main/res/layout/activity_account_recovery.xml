@@ -19,7 +19,9 @@
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="8dp" />
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
     <EditText
         android:id="@+id/editText"
@@ -36,10 +38,10 @@
         android:id="@+id/textView2"
         android:layout_width="71dp"
         android:layout_height="17dp"
-        android:layout_marginTop="0dp"
         android:text="@string/enterEmail"
         app:layout_constraintTop_toBottomOf="@+id/editText"
-        tools:layout_editor_absoluteX="84dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteX="84dp" />
+
+
 
 </android.support.constraint.ConstraintLayout>

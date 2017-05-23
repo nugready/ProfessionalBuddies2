@@ -8,6 +8,8 @@
     <string name="newUser">New User? Sign up!</string>
     <string name="Accountrecovery">Account Recovery</string>
     <string name="securityQuestion">Security Question</string>
+    <string name="enterBirthday">Birthday</string>
+    <string name="enterName"> Name </string>
     <string name="email">Email</string>
     <string name="securityQuestionAnswer">Answer</string>
     <string name="motherMaiden">What is your mother\'s maiden name?</string>
