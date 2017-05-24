@@ -6,12 +6,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="colorPrimaryLight">@color/colorPrimaryLight</item>
-        <item name="textColorPrimary">@color/colorPrimaryText</item>
-        <item name="textColorPrimaryInverse">@color/colorTextPrimary</item>
-        <item name="textColorSecondary">@color/colorSecondaryText</item>
-        <item name="dividerHorizontal">@color/colorDivider</item>
-        <item name="dividerVertical">@color/colorDivider</item>
+
 
     </style>
 
